@@ -5,17 +5,30 @@ body {
 	font-size: 20px;
 	font-weight:lighter;
 	background-color: rgb(226, 226, 226);
-	margin: 22;
+	margin: 24;
 	vertical-align: baseline;
 }
 
-h1, h2, h3{
+h1, h2, h3, a{ 
 	Font-Family: 'Raleway', Sans-Serif;
 	color: rgb(127, 127, 127);
 	margin: 24;
 
-}
 
+}
+a{
+	text-decoration: none;	
+	text-align: center;
+	border: 1px;
+	color: rgb(36, 36, 36);
+	border-style: solid;
+	border-color: rgb(36, 36, 36);
+	padding: 15px 32px;
+	bottom: 50;
+	float: center;
+	border-radius: 8px;
+}	
+	
 h1 {
 	font-size: 90px;
 	text-align: center;
@@ -71,7 +84,7 @@ main {
 	}
 	
 .col p {
-	margin:24px;
+	margin:32px;
 	line-height: 48px;
 	}
 
