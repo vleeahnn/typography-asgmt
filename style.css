@@ -16,13 +16,25 @@ h1, h2, h3, a{
 
 
 }
-a{
+a {  
 	text-decoration: none;	
 	text-align: center;
 	border: 1px;
 	color: rgb(36, 36, 36);
 	border-style: solid;
 	border-color: rgb(36, 36, 36);
+	padding: 15px 32px;
+	bottom: 50;
+	float: center;
+	border-radius: 8px;
+}	
+
+a:hover{  
+	text-decoration: none;	
+	text-align: center;
+	border: 1px;
+	color: rgb(36, 36, 36);
+	border-style: solid;
 	padding: 15px 32px;
 	bottom: 50;
 	float: center;
